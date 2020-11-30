@@ -1,0 +1,14 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	vector<int> score = {1,2,3,4,5,6};
+	//                   0 1 2 3 4 5
+	score.insert(score.begin()+4, 9);
+	
+	for(auto& elm: score) { //scroll on every element on the list
+		cout << elm << " ";
+	}
+	return 0;
+}
