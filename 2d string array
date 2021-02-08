@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    // add * to the char data type 
+    char * names[][3] = {{'_','_','_'},
+	                     {'_','_','_'},
+	                     {'_','_','_'}};
+    return 0;
+}
